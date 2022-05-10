@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+#Установка темы moonlight по умолчанию Boot screen
+if [ -e /usr/sbin/plymouth-set-default-theme ] && [ -e /usr/share/plymouth/themes/moonlight ]
+then
+	plymouth-set-default-theme lines
+fi
