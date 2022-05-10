@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+#Обновление репозиториев Flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+#Установка приложений Gnome 
+flatpak install \
+	org.gnome.Weather \
+	org.gnome.Connections \
+	de.haeckerfelix.Fragments \
+	re.sonny.Tangram
+	
+
