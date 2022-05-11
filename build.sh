@@ -12,4 +12,4 @@ lb config -d sid \
          --color \
          --image-name debian-sid-gnome.beta
           
-sudo lb build
+sudo lb build 
