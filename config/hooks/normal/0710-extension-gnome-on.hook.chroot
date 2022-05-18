@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+#Активация расширений Gnome-shell
+gnome-shell-extension-tool -e caffeine@patapon.info
+gnome-shell-extension-tool -e compiz-windows-effect@hermes83.github.com
+gnome-shell-extension-tool -e dash-to-dock-cosmic-@halfmexicanhalfamazing@gmail.com
+gnome-shell-extension-tool -e ding@rastersoft.com
+gnome-shell-extension-tool -e topiconsfix@aleskva@devnullmail.com
