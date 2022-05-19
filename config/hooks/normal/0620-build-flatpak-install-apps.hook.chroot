@@ -3,13 +3,11 @@
 set -e
 
 #Обновление репозиториев Flathub
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --verbose --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 #Установка приложений Gnome 
-flatpak install \
-	org.gnome.Weather \
-	org.gnome.Connections \
-	de.haeckerfelix.Fragments \
-	re.sonny.Tangram
-	
-
+flatpak install --verbose --noninteractive --assumeyes \
+	org.gnome.Weather//stable \
+	org.gnome.Connections//stable \
+	de.haeckerfelix.Fragments//stable \
+	re.sonny.Tangram//stable 
