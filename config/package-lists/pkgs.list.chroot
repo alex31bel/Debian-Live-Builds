@@ -1,7 +1,3 @@
-#Графический установщик Calamares
-calamares
-calamares-settings-debian
-
 #Firmware
 firmware-linux-nonfree
 firmware-linux-free
