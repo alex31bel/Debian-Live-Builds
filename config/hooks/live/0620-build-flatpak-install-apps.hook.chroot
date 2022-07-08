@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#Обновление репозиториев Flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+#Установка приложений Gnome 
+flatpak install -y --noninteractive --system org.gnome.Weather
+flatpak install -y --noninteractive --system org.gnome.Connections
+flatpak install -y --noninteractive --system de.haeckerfelix.Fragments
+flatpak install -y --noninteractive --system re.sonny.Tangram
